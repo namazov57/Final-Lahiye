@@ -341,3 +341,11 @@ fetch('posts.json')
     }
   })
   .catch(error => console.error(error));
+
+
+  /* YOUTUBE WINDOW */
+
+  document.getElementById("play-btn").addEventListener("click", function() {
+    const youtubeLink = "https://www.youtube.com/watch?v=6_n7ru1e-rg";
+    window.location.href = youtubeLink;
+});
